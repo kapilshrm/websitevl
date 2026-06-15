@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VeggieLoh</title>
+        <link rel="icon" href="img/veggieloh_favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="img/veggieloh_logo.png" sizes="32x32">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Run immediately before the page even loads a body
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            window.location.href = "https://apps.apple.com/in/app/veggieloh/id6776661961";
+        } else {
+            window.location.href = "https://play.google.com/store/apps/details?id=com.apaxion.veggieloh";
+        }
+    </script>
+</head>
+<body>
+    <!-- Fallback message just in case a phone has JavaScript disabled -->
+    <p>Redirecting you to the app store... If nothing happens, please click a link below:</p>
+    <ul>
+        <li><a href="https://apps.apple.com/in/app/veggieloh/id6776661961">Download on the App Store (iOS)</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.apaxion.veggieloh">Get it on Google Play (Android)</a></li>
+    </ul>
+</body>
+</html>
