@@ -67,7 +67,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 
 For any inquiries or feedback, please reach out to us at:
-- Email: support@veggieloh.com
+- Email: customercare@veggieloh.com
 - Phone: +91 965 087 4535
 
 Thank you for using VeggieLoh! Enjoy fresh produce delivered to your doorstep!
